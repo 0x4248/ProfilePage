@@ -1,0 +1,100 @@
+/* ProfilePage
+ * A simple and customizable profile page
+ * Github: https//www.github.com/0x4248/ProfilePage
+ * License: GNU General Public License v3.0
+ * By: 0x4248
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #272828;
+    color: #fff;
+}
+
+#main {
+    width: 100%;
+    max-width: 600px; 
+    margin: 20px auto;
+    background-color: #383838;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#banner {
+    height: 200px;
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.PFPandName {
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+    background-color: #1e202263;
+    backdrop-filter: blur(10px);
+    --webkit-backdrop-filter: blur(10px);
+}
+
+#PFP {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2f2f2f5e;
+    padding: 5px;
+    margin: 10px;
+}
+
+#Name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#Username {
+    font-size: 18px;
+}
+
+.aboutme {
+    background-color: #1e202263;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.aboutme h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.aboutme p {
+    font-size: 16px;
+}
+
+.connections {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.connection {
+    padding: 10px 20px;
+    background-color: #1e202263;
+    border-radius: 8px;
+}
+
+.connection a {
+    color: #fff;
+    text-decoration: none;
+}
